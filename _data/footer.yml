@@ -1,30 +1,22 @@
-- title: Pages
+- title: Páginas
   links:
-    - name: Home
+    - name: Início
       link: /
-    - name: About
+    - name: Sobre
       link: /about/
-    - name: Services
+    - name: Serviços
       link: /services/
-    - name: Contact
+    - name: Contato
       link: /contact/
-    - name: Advice
+    - name: Unidades
       link: /advice/
 - title: Social
   links:
     - name: Facebook
-      link:
+      link: "https://www.facebook.com/reidassobrancelhas/"
       social_icon: Facebook
       new_window: true
-    - name: Twitter
-      link:
-      social_icon: Twitter
-      new_window: true
-    - name: Google+
-      link:
-      social_icon: Google Plus
-      new_window: true
-    - name: LinkedIn
-      link:
-      social_icon: LinkedIn
+    - name: Instagram
+      link: "https://www.instagram.com/rei_das_sobrancelhas/"
+      social_icon: Instagram
       new_window: true

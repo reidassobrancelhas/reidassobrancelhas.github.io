@@ -1,5 +1,5 @@
 ---
-title: Contact
+title: Contato
 call_to_action: Map
 background_image_path:
 large_header: false
@@ -12,40 +12,42 @@ map:
 ---
 
 <p class="editable">
-	Come see us in person, give us a call, or send us a message with your details and we'll be in contact shortly after. No obligations and your first meeting is free.
+	Venha fazer uma avaliação gratuita.
+<br>
+  Ligue ou envie uma mensagem com seus dados e entraremos em contato.
 </p>
 
 <div class="columns">
 	<div class="column">
 		<p class="editor-link"><a href="cloudcannon:collections/_data/company.yml" class="btn"><strong>&#9998;</strong> Update Company Details</a></p>
 
-		<label>Phone Number</label>
+		<label>Número de Telefone</label>
 		<p class="contact-info"><a href="tel:{{ site.data.company.contact_phone_number }}">{{ site.data.company.contact_phone_number }}</a></p>
 
-		<label>Email Address</label>
+		<label>Endereço de Email</label>
 		<p class="contact-info"><a href="mailto:{{ site.data.company.contact_email_address }}">{{ site.data.company.contact_email_address }}</a></p>
 
-		<label>Postal Address</label>
+		<label>Endereço Postal</label>
 		<address class="contact-info">{{ site.data.company.postal_address | replace: ',', '<br>' }}</address>
-		<label>Address</label>
+		<label>Endereço</label>
 		<address class="contact-info">{{ site.data.company.address | replace: ',', '<br>' }}</address>
 	</div>
 
 	<div class="column">
-		<form method="post" action="/contact-success.html">
+		<form method="post" action="https://formspree.io/franquiareidassobrancelhas@gmail.com">
 			<label for="email_address">Email Address</label>
 			<input id="email_address"type="text" name="email">
 
-			<label for="name">Name</label>
+			<label for="name">Nome`</label>
 			<input id="name" type="text" name="name">
 
-			<label for="message">Message</label>
+			<label for="message">Menssagem</label>
 			<textarea id="message" name="message"></textarea>
 
 			<input type="hidden" name="_to" value="{{ site.data.company.contact_email_address }}">
 			<input type="text" name="_gotcha" style="display: none;">
 
-			<input type="submit" value="Send Message">
+			<input type="submit" value="Enviar Menssagem">
 		</form>
 	</div>
 </div>
